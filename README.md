@@ -21,7 +21,8 @@ git clone https://github.com/vajrock/my-zsh.git ~/my-zsh
 yes | cp -rf  ~/my-zsh/.zshrc ~/.zshrc
 yes | cp -rf  ~/my-zsh/.p10k.zsh ~/.p10k.zsh
 mkdir -p ~/.fonts
-yes | cp -rf ~/my-zsh/.fonts ~/.fonts
+yes | cp -rf ~/my-zsh/.fonts/* ~/.fonts/
+fc-cache -f -v 2>&1 >> /dev/null 
 rm -rf ~/my-zsh
 git clone https://github.com/zplug/zplug ~/.zplug
 ```
