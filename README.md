@@ -19,6 +19,7 @@ epm install zsh
 ```
 git clone https://github.com/vajrock/my-zsh.git ~/my-zsh
 yes | cp -rf  ~/my-zsh/.zshrc ~/.zshrc
+yes | cp -rf  ~/my-zsh/.zcompdump ~/.zcompdump
 yes | cp -rf  ~/my-zsh/.p10k.zsh ~/.p10k.zsh
 mkdir -p ~/.fonts
 yes | cp -rf ~/my-zsh/.fonts/* ~/.fonts/

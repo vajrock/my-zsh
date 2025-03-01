@@ -52,7 +52,7 @@ zplug "MichaelAquilina/zsh-you-should-use" # Сообщает о том, что 
 #zplug "plugins/docker-compose",		from:oh-my-zsh 
 #zplug "plugins/golang",				from:oh-my-zsh 
 #zplug "plugins/timer",				from:oh-my-zsh 
-
+zplug "greymd/docker-zsh-completion"
 
 zplug check || zplug install
 zplug load
